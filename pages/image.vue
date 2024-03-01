@@ -1,16 +1,11 @@
 <template>
   <div>
-    <div>
-      <NuxtLink to="/">Home</NuxtLink>
-      <NuxtLink to="/chat">Chat</NuxtLink>
-    </div>
     <h1>Image Generator</h1>
     <form @submit.prevent="handleSubmit()">
       <input type="text" v-model="text">
       <button type="submit">Go</button>
     </form>
-      <a href={{ new_img }}>kkkk</a>
-      <NuxtLink external v-if="new_img" :to="{ new_img }" target="_blank">Link</NuxtLink>
+        <a v-if="new_img" href={{ new_img }}>kkkk</a>
   </div>
 </template>
 
