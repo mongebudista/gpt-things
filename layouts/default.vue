@@ -1,6 +1,5 @@
 <template>
   <div class="app">
-    <Aside />
     <slot />
   </div>
 </template>

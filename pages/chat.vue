@@ -1,7 +1,6 @@
 <template>
   <div>
     <h1>CHAT</h1>
-    <Card />
     <p>Using ChatGPT 3.5-turbo</p>
     <form @submit.prevent="handleSubmit()">
       <input class="input" type="text" v-model="text" id="text">

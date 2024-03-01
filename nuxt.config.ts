@@ -5,6 +5,5 @@ export default defineNuxtConfig({
     OPENAI_API_KEY: process.env.OPENAI_API_KEY
   },
   css: ['./assets/css/main.css'],  
-  extends: ['@nuxt/ui-pro'],
   modules: ['@nuxt/content', '@nuxt/ui']
 })
